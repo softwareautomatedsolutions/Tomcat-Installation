@@ -6,7 +6,7 @@ ________________________________________________________________________________
 Second:
 #Now note that before you install packages you will have to cd in /opt directory because it is recommended to install packages in the /opt directory
 cd /opt
-_____________________________________________
+_________________________________________________________________________________
 Third:
 # install wget to download packages
 sudo yum install git wget -y
@@ -23,7 +23,6 @@ sudo yum install java-1.8.0-openjdk-devel -y
 
 sudo wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.89/bin/apache-tomcat-9.0.89.zip
 sudo unzip apache-tomcat-9.0.89.zip
-sudo rm -rf apache-tomcat-9.0.89.zip
 
 # rename tomcat for good naming convention
 sudo mv apache-tomcat-9.0.89 tomcat9
